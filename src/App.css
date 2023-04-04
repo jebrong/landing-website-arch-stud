@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+body {
+  background-color: #141414;
+  font-family: "Source Sans Pro";
+  color: #e5e5e5;
+  letter-spacing: 0.035em;
+  overflow-x: hidden;
+}
+
+.page-container {
+  position: absolute;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.mainTitle {
+  font-family: "Bebas Neue";
+  line-height: 92%;
+  font-weight: 700;
+  font-size: 211px;
+  text-align: center;
+}
+
+.subTitle {
+  text-align: right;
+}
+
+.mainTitle2 {
+  font-family: "Bebas Neue";
+  line-height: 92%;
+
+  font-size: 111px;
+}
+
+.carousel-item img {
+  height: 700px;
+  object-fit: cover;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  filter: grayscale(100);
+}
+
+.cardStats h1 {
+  font-family: "Bebas Neue";
+  font-weight: 700;
+  font-size: 98px;
+  line-height: 52%;
+}
+.cardStats p {
+  font-size: 15px;
+}
+
+.servicesTitle {
+  font-family: "Bebas Neue";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.accordion-button {
+  background-color: #141414;
+  color: #e5e5e5;
+  border-bottom: #e5e5e5 1px solid;
+  border-top: #e5e5e5 1px solid;
+  letter-spacing: 0.15em;
+}
+
+.aboutContainer {
+  margin: 100px 0;
+}
+
+p {
+}
+
+.accordion-item {
+  background-color: #141414;
+  color: #e5e5e5;
+  border: none;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed,
+.accordion-item:first-of-type .accordion-button {
+  border-radius: 0;
+}
+
+.card {
+  border-radius: 0;
+}
+.cta-button {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  border-radius: 0;
+}
+
+.calculate-button {
+  margin-top: 2rem;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  font-family: "Bebas Neue";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52%;
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel-item img {
+    height: 500px;
+  }
+  .mainTitle {
+    font-size: 102px;
+    line-height: 100%;
+  }
+
+  .subTitle {
+    display: flex;
+    justify-content: center;
+  }
+  .mainTitle2 {
+    font-size: 80px;
+  }
+}
