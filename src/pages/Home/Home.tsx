@@ -2,16 +2,14 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
+import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import { projects } from "../../data/localData";
 
 import { motion as m } from "framer-motion";
 import { pageAnimationLeft } from "../../animations/animations";
-
-import Navbar from "react-bootstrap/Navbar";
 
 export default function Home() {
   return (
