@@ -11,6 +11,8 @@ import { projects } from "../../data/localData";
 import { motion as m } from "framer-motion";
 import { pageAnimationLeft } from "../../animations/animations";
 
+import Navbar from "react-bootstrap/Navbar";
+
 export default function Home() {
   return (
     <m.div
@@ -31,15 +33,9 @@ export default function Home() {
               <div>Planning.</div>
             </div>
             <div className="subTitle pt-lg-2 pb-2 ">
-              <Button
-                size="lg"
-                variant="light"
-                className="cta-button"
-                as={Link}
-                to="/demo"
-              >
+              <Navbar.Brand as={Link} to="/demo">
                 GET AN ESTIMATE
-              </Button>
+              </Navbar.Brand>
             </div>
           </Col>
         </Row>
